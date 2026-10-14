@@ -76,11 +76,12 @@ server/utils/product.ts               # product type, Zod schemas, shared helper
 - [ ] `GET /api/orders`: a user's own orders, or all orders for admins
 - [ ] Order status: `pending` → `paid` → `shipped`
 
-## Step 5: User management
+## Step 5: User management (API ✅, page pending)
 
-- [ ] `GET /api/admin/users`: list users (admin)
-- [ ] `PATCH /api/admin/users/:id/role`: change a user's role (admin)
-- [ ] Users page in the admin dashboard
+- [x] `GET /api/admin/users`: list users with search, role filter and pagination (admin)
+- [x] `PATCH /api/admin/users/:id/role`: change a user's role (admin, not your own)
+- [x] `requireAdmin` checks the role in MongoDB, so role changes take effect immediately
+- [ ] Users page in the admin dashboard (frontend, later)
 
 ## Step 6: Polish
 
