@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-complete-backend",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "mongodb": "^7.7.0",
+    "nuxt": "^4.6.1",
+    "nuxt-auth-utils": "^0.5.31",
+    "swagger-ui-dist": "^5.33.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/swagger-ui-dist": "^3.30.6"
+  }
+}
